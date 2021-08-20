@@ -72,6 +72,15 @@
     "config": {
         "sort-packages": true
     },
+    "scripts": {
+        "copy-profiles" : "rm -r -f web/profiles/custom && cp -r profiles web/profiles/custom",
+        "post-install-cmd": [
+          "@copy-profiles"
+        ],
+        "post-update-cmd": [
+          "@copy-profiles"
+        ]
+    },
     "extra": {
         "drupal-scaffold": {
             "locations": {
