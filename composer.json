@@ -104,6 +104,7 @@
             "web/modules/contrib/{$name}": [
                 "type:drupal-module"
             ],
+            "web/profiles/roll": ["saltednut/roll_drupal"],
             "web/profiles/contrib/{$name}": [
                 "type:drupal-profile"
             ],
