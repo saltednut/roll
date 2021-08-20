@@ -16,6 +16,64 @@
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "library-enyo/dropzone",
+                "version": "4.3.0",
+                "type": "drupal-library",
+                "source": {
+                    "url": "https://github.com/enyo/dropzone",
+                    "type": "git",
+                    "reference": "v4.3.0"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jquery/cycle",
+                "version": "3.0.3",
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "jquery.cycle"
+                },
+                "dist": {
+                    "url": "https://github.com/malsup/cycle/archive/refs/tags/3.0.3.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jquery/hoverintent",
+                "version": "1.9.0",
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "jquery.hoverIntent"
+                },
+                "dist": {
+                    "url": "https://github.com/briancherne/jquery-hoverIntent/archive/refs/tags/v1.9.0.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "json/json2",
+                "version": "2.0",
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "json2"
+                },
+                "dist": {
+                    "url": "https://github.com/douglascrockford/JSON-js/archive/refs/heads/master.zip",
+                    "type": "zip"
+                }
+            }
         }
     ],
     "require": {
@@ -71,7 +129,11 @@
         "drupal/webform": "^6.0",
         "drupal/yoast_seo": "^1.7",
         "drupal/youtube": "^1.2",
-        "drush/drush": "^10.5"
+        "drush/drush": "^10.5",
+        "jquery/cycle": "^3.0",
+        "jquery/hoverintent": "^1.9",
+        "json/json2": "^2.0",
+        "library-enyo/dropzone": "^4.3"
     },
     "conflict": {
         "drupal/drupal": "*"

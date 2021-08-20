@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3ec2b23f3f965f9463c664a25708fd22",
+    "content-hash": "4127852e4c813da20cf32e396e82304e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -6470,6 +6470,42 @@
             "time": "2021-04-26T09:17:50+00:00"
         },
         {
+            "name": "jquery/cycle",
+            "version": "3.0.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/malsup/cycle/archive/refs/tags/3.0.3.zip"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "jquery.cycle"
+            }
+        },
+        {
+            "name": "jquery/hoverintent",
+            "version": "1.9.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/briancherne/jquery-hoverIntent/archive/refs/tags/v1.9.0.zip"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "jquery.hoverIntent"
+            }
+        },
+        {
+            "name": "json/json2",
+            "version": "2.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/douglascrockford/JSON-js/archive/refs/heads/master.zip"
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "json2"
+            }
+        },
+        {
             "name": "laminas/laminas-diactoros",
             "version": "2.6.0",
             "source": {
@@ -6994,6 +7030,16 @@
                 }
             ],
             "time": "2021-04-17T16:32:08+00:00"
+        },
+        {
+            "name": "library-enyo/dropzone",
+            "version": "4.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/enyo/dropzone",
+                "reference": "v4.3.0"
+            },
+            "type": "drupal-library"
         },
         {
             "name": "maennchen/zipstream-php",
