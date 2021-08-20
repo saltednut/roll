@@ -76,7 +76,7 @@
         }
     ],
     "require": {
-        "saltednut/roll_drupal": "^1.0.x-dev"
+        "saltednut/roll_drupal": "^1.0.0-alpha2"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
