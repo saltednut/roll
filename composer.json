@@ -15,13 +15,68 @@
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "library-enyo/dropzone",
+                "version": "4.3.0",
+                "type": "drupal-library",
+                "source": {
+                    "url": "https://github.com/enyo/dropzone",
+                    "type": "git",
+                    "reference": "v4.3.0"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jquery/cycle",
+                "version": "3.0.3",
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "jquery.cycle"
+                },
+                "dist": {
+                    "url": "https://github.com/malsup/cycle/archive/refs/tags/3.0.3.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jquery/hoverintent",
+                "version": "1.9.0",
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "jquery.hoverIntent"
+                },
+                "dist": {
+                    "url": "https://github.com/briancherne/jquery-hoverIntent/archive/refs/tags/v1.9.0.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "json/json2",
+                "version": "2.0",
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "json2"
+                },
+                "dist": {
+                    "url": "https://github.com/douglascrockford/JSON-js/archive/refs/heads/master.zip",
+                    "type": "zip"
+                }
+            }
         }
     ],
     "require": {
-        "composer/installers": "^1.9",
-        "drupal/roll": "^1.0.x-dev",
-        "drupal/core-composer-scaffold": "^9.2",
-        "oomphinc/composer-installers-extender": "^2.0"
+        "saltednut/roll_drupal": "^1.0.x-dev"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
