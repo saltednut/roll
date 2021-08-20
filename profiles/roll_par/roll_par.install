@@ -1,0 +1,18 @@
+<?php
+/**
+ * @file
+ * Install, update and uninstall functions for the DF installation profile.
+ */
+
+function roll_par_system_settings() {
+  $config_factory = \Drupal::configFactory();
+
+  // Set the default and admin theme.
+  $config_factory
+    ->getEditable('system.theme')
+    ->set('default', 'olivero')
+    ->set('admin', 'claro')
+    ->save(TRUE);
+
+}
+
