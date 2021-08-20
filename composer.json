@@ -77,11 +77,13 @@
         }
     ],
     "require": {
+        "acquia/cohesion": "^6.6",
         "bower-asset/blazy": "^1.8",
         "bower-asset/imagesloaded": "^4.1",
         "bower-asset/masonry-layout": "^4.2",
         "bower-asset/slick-carousel": "^1.8",
         "composer/installers": "^1.9",
+        "drupal/acquia_search": "^3.0",
         "drupal/addtoany": "^1.15",
         "drupal/admin_toolbar": "^3.0",
         "drupal/asset_injector": "^2.7",
