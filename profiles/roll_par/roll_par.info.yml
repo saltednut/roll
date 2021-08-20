@@ -48,8 +48,6 @@ install:
   - image
   - language
   - link
-  - memcache
-  - memcache_admin
   - menu_link_attributes
   - menu_ui
   - metatag

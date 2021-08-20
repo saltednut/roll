@@ -109,6 +109,7 @@
         "drupal/inline_responsive_images": "^2.2",
         "drupal/lazy": "^3.10",
         "drupal/memcache": "^2.3",
+        "drupal/menu_link_attributes": "^1.2",
         "drupal/migrate_plus": "^5.1",
         "drupal/paragraphs": "^1.12",
         "drupal/paragraphs_ee": "^1.8",
@@ -124,8 +125,10 @@
         "drupal/stage_file_proxy": "^1.1",
         "drupal/tinypng": "^1.1",
         "drupal/token": "^1.9",
+        "drupal/typed_data": "^1.0-alpha5",
         "drupal/views_data_export": "^1.0",
         "drupal/views_infinite_scroll": "^1.8",
+        "drupal/views_slideshow": "^4.8",
         "drupal/webform": "^6.0",
         "drupal/yoast_seo": "^1.7",
         "drupal/youtube": "^1.2",
@@ -160,8 +163,8 @@
             }
         },
         "installer-types": [
-            "bower-asset",
-            "npm-asset"
+            "npm-asset",
+            "bower-asset"
         ],
         "installer-paths": {
             "web/core": [
@@ -176,10 +179,7 @@
             "web/themes/contrib/{$name}": [
                 "type:drupal-theme"
             ],
-            "drush/Commands/contrib/{$name}": [
-                "type:drupal-drush"
-            ],
-            "web/libraries/slick": ["bower-asset/slick-carousel"],
+	    "web/libraries/slick": ["bower-asset/slick-carousel"],
             "web/libraries/masonry": ["bower-asset/masonry-layout"],
             "web/libraries/{$name}": [
                 "type:drupal-library",
