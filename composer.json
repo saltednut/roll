@@ -73,7 +73,7 @@
         "sort-packages": true
     },
     "scripts": {
-        "copy-profiles" : "rm -r -f web/profiles/custom && cp -r profiles web/profiles/custom",
+        "copy-profiles" : "mkdir -p web/profiles/custom && rsync -r profiles/* web/profiles/custom",
         "post-install-cmd": [
           "@copy-profiles"
         ],
