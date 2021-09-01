@@ -1,4 +1,5 @@
 # roll 🍱
+[![Build Status](https://app.travis-ci.com/saltednut/roll.svg?branch=1.0.x)](https://app.travis-ci.com/saltednut/roll)
 
 This package is designed to deliver multiple Drupal installation profiles.
 
