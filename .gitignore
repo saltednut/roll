@@ -2,3 +2,11 @@
 .gitattributes
 vendor/
 web/
+
+# Ignore binaries.
+/bin
+
+.idea/
+docker-compose.yml
+docroot/sites/*/settings.local.php
+docroot/sites/*/files

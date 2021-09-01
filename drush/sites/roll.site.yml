@@ -1,0 +1,3 @@
+# @docksal Drush alias
+docksal:
+  uri: http://roll.docksal
