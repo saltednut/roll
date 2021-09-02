@@ -2,6 +2,7 @@
 .gitattributes
 vendor/
 web/
+docroot/
 
 # Ignore binaries.
 /bin
