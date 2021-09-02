@@ -76,6 +76,7 @@
         }
     ],
     "require": {
+        "acquia/blt": "^13.0",
         "saltednut/roll_drupal": "^1.0.0-alpha2"
     },
     "minimum-stability": "dev",
