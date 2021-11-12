@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c2db308ddf1f3018616d29ba1141cdd",
+    "content-hash": "2510ce103476c86c31c1530a5b00302e",
     "packages": [
         {
             "name": "acquia/blt",
@@ -8953,16 +8953,16 @@
         },
         {
             "name": "saltednut/roll_drupal",
-            "version": "1.0.x-dev",
+            "version": "1.0.0-alpha5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/saltednut/roll_drupal.git",
-                "reference": "c9e2627abd3745b812833ea5c1fe25eddf93cc17"
+                "reference": "447a180d4eecb65e84bbb3ed8d1b045ba2b6929a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/saltednut/roll_drupal/zipball/c9e2627abd3745b812833ea5c1fe25eddf93cc17",
-                "reference": "c9e2627abd3745b812833ea5c1fe25eddf93cc17",
+                "url": "https://api.github.com/repos/saltednut/roll_drupal/zipball/447a180d4eecb65e84bbb3ed8d1b045ba2b6929a",
+                "reference": "447a180d4eecb65e84bbb3ed8d1b045ba2b6929a",
                 "shasum": ""
             },
             "require": {
@@ -9034,7 +9034,6 @@
             "require-dev": {
                 "drupal/core-dev": "^9"
             },
-            "default-branch": true,
             "type": "drupal-profile",
             "extra": {
                 "drupal-scaffold": {
@@ -9095,9 +9094,9 @@
             "homepage": "https://www.dianawynn.com/roll",
             "support": {
                 "issues": "https://github.com/saltednut/roll_drupal/issues",
-                "source": "https://github.com/saltednut/roll_drupal/tree/1.0.x"
+                "source": "https://github.com/saltednut/roll_drupal/tree/1.0.0-alpha5"
             },
-            "time": "2021-11-12T16:11:14+00:00"
+            "time": "2021-11-12T16:23:58+00:00"
         },
         {
             "name": "solarium/solarium",
@@ -12442,9 +12441,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "saltednut/roll_drupal": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
