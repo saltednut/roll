@@ -33,6 +33,8 @@
         }
     ],
     "require": {
+        "lcobucci/clock": "2.2",
+        "oomphinc/composer-installers-extender": "^2.0",
         "saltednut/roll_drupal": "^1.0.x-dev"
     },
     "minimum-stability": "dev",
