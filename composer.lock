@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fa106a72700a3e581fb47fcbfea70ce5",
+    "content-hash": "29047b7f0ab9122ba8ebe36d4f638202",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -6887,31 +6887,34 @@
         },
         {
             "name": "lcobucci/clock",
-            "version": "2.2.0",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lcobucci/clock.git",
-                "reference": "fb533e093fd61321bfcbac08b131ce805fe183d3"
+                "reference": "039ef98c6b57b101d10bd11d8fdfda12cbd996dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lcobucci/clock/zipball/fb533e093fd61321bfcbac08b131ce805fe183d3",
-                "reference": "fb533e093fd61321bfcbac08b131ce805fe183d3",
+                "url": "https://api.github.com/repos/lcobucci/clock/zipball/039ef98c6b57b101d10bd11d8fdfda12cbd996dc",
+                "reference": "039ef98c6b57b101d10bd11d8fdfda12cbd996dc",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.0",
-                "stella-maris/clock": "^0.1.4"
+                "php": "~8.1.0 || ~8.2.0",
+                "psr/clock": "^1.0"
+            },
+            "provide": {
+                "psr/clock-implementation": "1.0"
             },
             "require-dev": {
                 "infection/infection": "^0.26",
-                "lcobucci/coding-standard": "^8.0",
-                "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan": "^0.12",
-                "phpstan/phpstan-deprecation-rules": "^0.12",
-                "phpstan/phpstan-phpunit": "^0.12",
-                "phpstan/phpstan-strict-rules": "^0.12",
-                "phpunit/phpunit": "^9.5"
+                "lcobucci/coding-standard": "^9.0",
+                "phpstan/extension-installer": "^1.2",
+                "phpstan/phpstan": "^1.9.4",
+                "phpstan/phpstan-deprecation-rules": "^1.1.1",
+                "phpstan/phpstan-phpunit": "^1.3.2",
+                "phpstan/phpstan-strict-rules": "^1.4.4",
+                "phpunit/phpunit": "^9.5.27"
             },
             "type": "library",
             "autoload": {
@@ -6932,7 +6935,7 @@
             "description": "Yet another clock abstraction",
             "support": {
                 "issues": "https://github.com/lcobucci/clock/issues",
-                "source": "https://github.com/lcobucci/clock/tree/2.2.0"
+                "source": "https://github.com/lcobucci/clock/tree/3.0.0"
             },
             "funding": [
                 {
@@ -6944,7 +6947,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-04-19T19:34:17+00:00"
+            "time": "2022-12-19T15:00:24+00:00"
         },
         {
             "name": "lcobucci/jwt",
@@ -8719,12 +8722,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/saltednut/roll_drupal.git",
-                "reference": "ee8b43f687939b1a8f3f79fbe38f102d475dff9e"
+                "reference": "6f64b4d8e45e82e89bc10aed225f76fc701ff6ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/saltednut/roll_drupal/zipball/ee8b43f687939b1a8f3f79fbe38f102d475dff9e",
-                "reference": "ee8b43f687939b1a8f3f79fbe38f102d475dff9e",
+                "url": "https://api.github.com/repos/saltednut/roll_drupal/zipball/6f64b4d8e45e82e89bc10aed225f76fc701ff6ee",
+                "reference": "6f64b4d8e45e82e89bc10aed225f76fc701ff6ee",
                 "shasum": ""
             },
             "require": {
@@ -8745,7 +8748,7 @@
                 "drupal/config_rewrite": "^1.5",
                 "drupal/config_split": "^2.0@RC",
                 "drupal/content_access": "^2.0",
-                "drupal/core": "^10.1.4",
+                "drupal/core": "^10",
                 "drupal/core-composer-scaffold": "^9",
                 "drupal/core-project-message": "^9",
                 "drupal/crop": "^2.3",
@@ -8784,6 +8787,7 @@
                 "drupal/yoast_seo": "^1.8",
                 "drupal/youtube": "^2.0",
                 "drush/drush": "^12.2",
+                "lcobucci/clock": "3.0.0",
                 "oomphinc/composer-installers-extender": "^2.0"
             },
             "require-dev": {
@@ -8844,7 +8848,7 @@
                 "issues": "https://github.com/saltednut/roll_drupal/issues",
                 "source": "https://github.com/saltednut/roll_drupal/tree/1.0.x"
             },
-            "time": "2023-10-04T19:10:31+00:00"
+            "time": "2023-10-04T21:25:40+00:00"
         },
         {
             "name": "sebastian/diff",
@@ -8911,53 +8915,6 @@
                 }
             ],
             "time": "2023-05-07T05:35:17+00:00"
-        },
-        {
-            "name": "stella-maris/clock",
-            "version": "0.1.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/stella-maris-solutions/clock.git",
-                "reference": "fa23ce16019289a18bb3446fdecd45befcdd94f8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/stella-maris-solutions/clock/zipball/fa23ce16019289a18bb3446fdecd45befcdd94f8",
-                "reference": "fa23ce16019289a18bb3446fdecd45befcdd94f8",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.0|^8.0",
-                "psr/clock": "^1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "StellaMaris\\Clock\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Andreas Heigl",
-                    "role": "Maintainer"
-                }
-            ],
-            "description": "A pre-release of the proposed PSR-20 Clock-Interface",
-            "homepage": "https://gitlab.com/stella-maris/clock",
-            "keywords": [
-                "clock",
-                "datetime",
-                "point in time",
-                "psr20"
-            ],
-            "support": {
-                "source": "https://github.com/stella-maris-solutions/clock/tree/0.1.7"
-            },
-            "time": "2022-11-25T16:15:06+00:00"
         },
         {
             "name": "steverhoades/oauth2-openid-connect-server",
@@ -11776,5 +11733,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
